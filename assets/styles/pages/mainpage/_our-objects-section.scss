@@ -1,0 +1,54 @@
+.our-objects-section {
+    button {
+        width: 100%;
+        padding: 10px 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $maintextcolor;
+        margin-bottom: 20px;
+    }
+
+    .object-card {
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #D3D0CB;
+        box-shadow: 0px 4px 8px rgba(114, 97, 74, 0.16);
+        border-radius: 8px;
+        width: 100%;
+        padding: 26px;
+        margin-bottom: 20px;
+
+        .object-img {
+            margin-bottom: 20px;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .object-head h4 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: $maintextcolor;
+            margin-bottom: 10px;
+        }
+
+        .object-info {
+            display: flex;
+            color: #72614A;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 140%;
+            padding: 30px 0;
+
+            img {
+                align-self: flex-start;
+                margin-right: 14px;
+            }
+        }
+    }
+}

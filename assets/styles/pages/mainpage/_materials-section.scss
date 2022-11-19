@@ -1,0 +1,231 @@
+.materials-section {
+    padding-top: 6rem;
+    color: $maintextcolor;
+
+
+
+    .left-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .materials-head {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 145%;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .advantages {
+        p {
+            img {
+                margin-right: 15px;
+            }
+
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+        margin-bottom: 40px;
+    }
+
+    .btns {
+        display: flex;
+        width: 100%;
+
+
+        .order-btn,
+        .choose-btn {
+            display: flex;
+            width: 100%;
+
+            button {
+                font-size: 18px;
+                padding: 15px 0;
+                width: 100%;
+                margin-right: 15px;
+            }
+
+        }
+    }
+
+    .material-cards {
+
+        .all-cards-cell {
+
+            border: 3px solid #F5F5F5;
+            border-radius: 12px;
+            background-color: rgb(161, 161, 161);
+            text-align: center;
+            cursor: pointer;
+
+            .all-goods-link {
+                position: absolute;
+                display: block;
+                color: $maintextcolor;
+                top: 34%;
+                left: 25%;
+                font-weight: 700;
+                font-size: 22px;
+                text-decoration: none;
+
+            }
+        }
+
+        .all-cards {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            z-index: 20;
+        }
+
+        .grid {
+            width: 100%;
+            height: 100%;
+            display: table;
+            border-spacing: 20px
+        }
+
+        .grid-row {
+            display: table-row
+        }
+
+        .cell {
+            // width: 50px;
+            // height: 50px;
+            // background: grey;
+            width: 80px;
+            height: 80px;
+            display: table-cell;
+            position: relative;
+            transition: all .25s;
+
+            .cell-link {
+                position: absolute;
+                z-index: 15;
+                font-size: 14px;
+                color: $maintextcolor;
+                background-color: #E3E1DE;
+                border-radius: 4px;
+                text-decoration: none;
+                text-align: center;
+                margin: 0px 4px;
+                top: 40%;
+                padding: 8px 0;
+                display: none;
+            }
+
+            &:hover {
+                img {
+                    filter: brightness(60%);
+                }
+
+                a {
+                    display: block;
+                    filter: brightness(100%);
+                }
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 10%;
+                top: 10%;
+                width: 80%;
+                height: 80%;
+                border: 3px solid #F5F5F5;
+                border-radius: 8px;
+                z-index: 10;
+            }
+        }
+
+        // .row div:last-child {
+        //     background: red
+        // }
+
+        .material-card {
+            display: block;
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.16));
+            border-radius: 12px;
+
+            // margin: 10px;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border: 3px solid #F5F5F5;
+                border-radius: 8px;
+                transition: all .25s;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .materials-section {
+        .all-cards-cell {
+            .all-goods-link {
+                left: 22% !important;
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .materials-section {
+        .all-cards-cell {
+            .all-goods-link {
+                left: 30% !important;
+                font-size: 24px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .materials-section {
+        padding-top: 3rem !important;
+
+        .all-cards-cell {
+            .all-goods-link {
+                left: 24% !important;
+                font-size: 20px !important;
+            }
+        }
+
+        .materials-head {
+            font-size: 20px !important;
+        }
+
+        button {
+            padding: 15px 10px !important;
+            font-size: 16px !important;
+        }
+    }
+
+    @media only screen and (max-width:491px) {
+        .materials-section {
+            .all-cards-cell {
+                .all-goods-link {
+                    left: 20% !important;
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+
+
+}

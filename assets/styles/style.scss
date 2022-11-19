@@ -1,0 +1,91 @@
+// style reset
+@import "./components/reset";
+
+// variables
+@import "./components/variables";
+
+// buttons
+@import "./components/btns";
+
+//bg image
+@import "./components/background-image";
+
+// font
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 236, 236);
+
+    main {
+        position: relative;
+        // height: 100vh;
+    }
+
+    &:before {
+        background: url('../img/Фон.png') center / cover;
+        content: "";
+        position: absolute;
+        background-size: contain;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 0.02;
+        height: 4800px;
+    }
+
+    // scroll-to-top
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: $maintextcolor;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 40px;
+        box-shadow: 0px 4px 8px rgb(114 97 74 / 16%);
+
+        img {
+            filter: invert(100%);
+            transform: rotate(270deg);
+            width: 20px;
+        }
+    }
+
+
+}
+
+//container
+@media only screen and (max-width:575px) {
+    .container {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+//section
+@import "./components/section-style";
+
+//navbar
+@import "./components/navbar";
+
+//footer
+@import "./components/footer";
+
+// ** pages **
+
+// mainpage start
+@import "./pages/mainpage/materials-section";
+@import "./pages/mainpage/how-we-work-section";
+@import "./pages/mainpage/catalog-section";
+@import "./pages/mainpage/additional-services-section";
+@import "./pages/mainpage/any-questions-section";
+@import "./pages/mainpage/our-objects-section";
+@import "./pages/mainpage/contacts-section";
+// mainpage end

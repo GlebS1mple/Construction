@@ -1,0 +1,225 @@
+@media only screen and (max-width:1399px) {
+    header {
+        .bottom-nav {
+            a {
+                font-size: 20px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    header {
+
+        .top-nav {
+
+            .company-number,
+            .order-call-btn {
+                display: none;
+            }
+        }
+
+
+
+        .call-reveal {
+            display: block;
+        }
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    header {
+        .top-nav {
+            .logo-reveal {
+                display: block !important;
+            }
+
+            .company-number,
+            .order-call-btn {
+                display: none;
+            }
+        }
+
+        .container-fluid {
+            justify-content: space-between !important;
+
+            li.nav-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    display: inline-block;
+                }
+            }
+
+            .navbar-brand {
+                display: none;
+            }
+
+            .navbar-toggler {
+                display: flex;
+                font-size: 20px !important;
+                line-height: 23px !important;
+                letter-spacing: 0.065em !important;
+                color: #E3E1DE;
+                border: none !important;
+
+                &:focus {
+                    box-shadow: none !important;
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+
+            }
+
+            .call-reveal {
+                display: block !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    header {
+        .top-nav {
+            .company-adress {
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:477px) {
+    header {
+        .top-nav {
+            height: 5rem;
+
+            .company-adress {
+                p {
+                    font-size: 10px;
+                }
+
+                img {
+                    width: 10px;
+                }
+            }
+
+            .company-name {
+                p {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+header {
+    .top-nav {
+        height: 7rem;
+        color: $maintextcolor;
+
+        .company-name {
+
+            .logo-reveal {
+                text-align: center;
+                display: none;
+
+                img {
+                    box-sizing: border-box;
+                    width: 50px;
+                }
+            }
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .company-name p,
+        .company-number p {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .working-time,
+        .company-email {
+            margin-top: 5px;
+        }
+
+        .order-call-btn {
+            button {
+                padding: 6px 12px;
+            }
+        }
+    }
+
+    .bottom-nav {
+        background-color: $maintextcolor;
+
+        .call-reveal {
+            display: none;
+
+            .company-number {
+                text-align: center;
+                font-size: 12px;
+                line-height: 14px;
+                color: #E3E1DE;
+                margin-bottom: 6px;
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        margin-right: 6px;
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        a {
+            color: $maingraycolor;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            letter-spacing: 0.065em;
+            margin: 0 1.2rem;
+
+            &:hover {
+                color: $btncolor;
+            }
+        }
+
+        .nav-search-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 20px;
+            padding-left: 35px;
+            width: 100%;
+            height: 40px;
+            background: #E3E1DE;
+            border-radius: 8px;
+            background: #E3E1DE url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+
+        }
+    }
+}

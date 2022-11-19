@@ -1,0 +1,292 @@
+// @media only screen and (max-width:1199px) {
+//     .any-questions-section {
+//         .subscription {
+//             margin-left: 10px !important;
+//         }
+
+//         .online {
+//             left: 70% !important;
+//         }
+//     }
+// }
+
+// @media only screen and (min-width:1200px) and (max-width:1399px) {
+//     .any-questions-section {
+
+//         .online {
+//             left: 55% !important;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width:991px) {
+//     .any-questions-section {}
+// }
+
+@media only screen and (max-width:991px) {
+    .any-questions-section {
+        .questions-box {
+            .call-btn {
+                display: none;
+            }
+
+            .call-btn-reveal {
+                display: block !important;
+                width: 100%;
+
+                button {
+                    width: 100%;
+                    padding: 10px 0;
+                    margin: 20px 0;
+
+                }
+            }
+
+            .online {
+                top: 80% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .any-questions-section {
+        .questions-box {
+
+            .person-image {
+                margin-right: 20px !important;
+
+                img {
+                    width: 80px !important;
+                    height: 80px !important;
+                }
+
+                .online {
+                    width: 16px !important;
+                    height: 16px !important;
+                    top: 70% !important;
+                }
+            }
+
+            .call {
+                .call-head {
+                    font-size: 20px !important;
+                }
+
+                .call-text {
+                    font-size: 14px !important;
+                }
+            }
+
+            .sub-form {
+                display: flex;
+                flex-direction: column;
+
+                .sub-btn {
+                    width: 100% !important;
+                    padding-left: 0 !important;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:436px) {
+    .any-questions-section {
+        .questions-box {
+            padding: 40px 20px !important;
+
+            .left-any-quest {
+                .online {
+                    top: 65% !important;
+                }
+
+                .call-head {
+                    font-size: 18px !important;
+
+                }
+
+                .call-text {
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:378px) {
+    .any-questions-section {
+        .questions-box {
+            padding: 40px 20px !important;
+
+            .left-any-quest {
+                .online {
+                    top: 55% !important;
+                }
+
+                .call-head {
+                    font-size: 18px !important;
+
+                }
+
+                .call-text {
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .any-questions-section {
+        .questions-box {
+            padding: 40px 20px !important;
+
+            .left-any-quest {
+                .online {
+                    top: 65% !important;
+                }
+            }
+        }
+    }
+}
+
+.any-questions-section {
+
+    .questions-box {
+        background-color: rgb(37, 37, 37);
+        border-radius: 16px;
+        padding: 40px;
+        color: #E3E1DE;
+        margin: 90px 0;
+
+        .left-any-quest {
+            display: flex;
+        }
+
+        .person-image {
+            position: relative;
+            margin-right: 50px;
+
+            img {
+                width: 120px;
+                height: 120px;
+                border-radius: 100px;
+                background-color: #fff;
+            }
+
+            .online {
+                position: absolute;
+                background-color: #00d400;
+                height: 25px;
+                width: 25px;
+                top: 70%;
+                left: 70%;
+                border-radius: 20px;
+            }
+        }
+
+        .call-btn-reveal {
+            display: none;
+        }
+
+        .call {
+            width: 100%;
+
+            .call-head {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0.065em;
+                color: #E3E1DE;
+                margin-bottom: 15px;
+            }
+
+            .call-text {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.065em;
+                margin-bottom: 15px;
+            }
+
+            .call-btn {
+                button {
+                    width: 75%;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: $maintextcolor;
+                    padding: 7px 0;
+                }
+            }
+        }
+
+        .subscription {
+            width: 100%;
+
+            .sub-head {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0.065em;
+                color: #E3E1DE;
+                margin-bottom: 15px;
+            }
+
+            .sub-body {
+                .sub-form {
+                    display: flex;
+
+                    .sub-input {
+
+                        label,
+                        input {
+                            display: block;
+                        }
+
+                        label {
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 19px;
+                            letter-spacing: 0.065em;
+                            color: #E3E1DE;
+                            margin-bottom: 5px;
+                        }
+
+                        input {
+                            width: 100%;
+                            border: 1px solid #BBBBBB;
+                            border-radius: 8px;
+                            background-color: transparent;
+                            height: 40px;
+                            color: #E3E1DE;
+                        }
+                    }
+
+                    .sub-btn {
+                        display: flex;
+                        flex-direction: column-reverse;
+                        padding-left: 20px;
+                        width: 40%;
+
+                        button {
+                            background: rgba(255, 255, 255, 0.1);
+                            border: 2px solid #E3E1DE;
+                            backdrop-filter: blur(5px);
+                            border-radius: 8px;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 23px;
+                            color: #E3E1DE;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

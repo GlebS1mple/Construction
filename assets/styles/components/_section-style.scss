@@ -1,0 +1,19 @@
+.section {
+    .section-head {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        color: $maintextcolor;
+        margin: 40px 0;
+    }
+
+    .section-info {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #72614A;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,50 @@
+.contacts-section {
+    color: $maintextcolor;
+
+    .company-name {
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 27px;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .option {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.065em;
+        margin-bottom: 18px;
+
+        span {
+            font-weight: 500;
+        }
+    }
+
+    .bank-details {
+        a {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: $maintextcolor;
+            letter-spacing: 0.065em;
+            text-decoration-line: underline;
+        }
+
+        margin-bottom: 20px;
+    }
+
+    .contacts-map {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+        padding-bottom: 100px;
+
+        iframe {
+            width: 100%;
+            min-height: 350px;
+        }
+
+    }
+}

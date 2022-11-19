@@ -1,0 +1,106 @@
+@media only screen and (max-width:1199px) {
+    .how-we-work-section {
+        .steps {
+            .upper-connection-lines {
+                .line-up-2 {
+                    margin-left: 24% !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .how-we-work-section {
+        .steps {
+            .step {
+                margin-bottom: 30px;
+            }
+
+            .line {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .how-we-work-section {
+        .steps {
+            .step {
+                margin-bottom: 30px;
+
+                .step-top {
+                    span {
+                        font-size: 22px !important;
+                    }
+
+                }
+
+                .step-head {
+                    font-size: 18px !important;
+                }
+
+                .step-about {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+.how-we-work-section {
+    background-color: transparent;
+
+    .steps {
+        .upper-connection-lines {
+            .line-up-1 {
+                margin-left: 10%;
+            }
+
+            .line-up-2 {
+                margin-left: 32%;
+            }
+        }
+
+        .lower-connection-line {
+
+            .line-down {
+                transform: rotate(180deg);
+                margin-left: 38%;
+            }
+        }
+
+        .step {
+            color: $maintextcolor;
+            width: 100%;
+
+            .step-top {
+                display: flex;
+
+
+                img {
+                    margin-right: 10px;
+                }
+
+                span {
+                    font-weight: 300;
+                    font-size: 32px;
+                }
+
+            }
+
+            .step-head {
+                font-weight: 500;
+                font-size: 24px;
+                margin: 20px 0;
+            }
+
+            .step-about {
+                font-weight: 300;
+                color: #72614A !important;
+                font-size: 20px;
+            }
+        }
+    }
+}

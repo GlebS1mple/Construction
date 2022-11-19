@@ -1,0 +1,28 @@
+.primary-button {
+    color: $maintextcolor;
+    background-color: $btncolor;
+    border: 3px solid $btncolor;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all .25s;
+
+    &:hover,
+    &:active {
+        border-color: $btnhovercolor;
+        background-color: $btnhovercolor;
+    }
+}
+
+.secondary-button {
+    color: $maintextcolor;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid $maintextcolor;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all .25s;
+
+    &:hover,
+    &:active {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}

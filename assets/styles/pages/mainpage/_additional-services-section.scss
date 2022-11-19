@@ -1,0 +1,15 @@
+.additional-services-section {
+
+    .rental-cards {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            display: inline-block;
+            border: 5px solid #F5F5F5;
+            border-radius: 16px;
+            max-width: 100% !important;
+            height: auto;
+        }
+    }
+}
